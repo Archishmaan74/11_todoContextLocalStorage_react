@@ -13,15 +13,14 @@ const App = () => {
       >
         <div className="max-w-md mx-auto bg-gray-300 shadow-md p-6 rounded">
           <h1 className="text-2xl font-bold text-center mb-4">📝 Todo App</h1>
-          <p className="text-center mb-2">
+          <p className="text-center mb-2 p-2">
             You can add your todo tasks, mark them as completed, edit them, and
             delete them according to your needs!
           </p>
-          <p className="text-center mb-2">
+          <p className="text-center mb-2 p-2">
             <strong>
               No database integrated, just saving the todos through
-              localstorage! Don't close window if u don't want to lose your
-              todos!
+              localstorage!
             </strong>
           </p>
           <TodoForm />
