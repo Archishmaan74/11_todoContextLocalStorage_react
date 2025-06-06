@@ -1,5 +1,5 @@
-import { useContext } from "react";
+import { createContext } from "react";
 
-const TodoContext = useContext();
+const TodoContext = createContext();
 
 export default TodoContext;
